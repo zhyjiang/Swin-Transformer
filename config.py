@@ -48,7 +48,7 @@ _C.DATA.MASK_RATIO = 0.6
 # -----------------------------------------------------------------------------
 _C.MODEL = CN()
 # Model type
-_C.MODEL.TYPE = 'swin'
+_C.MODEL.TYPE = 'hrswin'
 # Model name
 _C.MODEL.NAME = 'swin_tiny_patch4_window7_224'
 # Pretrained weight from checkpoint, could be imagenet22k pretrained weight
